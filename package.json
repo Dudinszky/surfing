@@ -1,12 +1,12 @@
 {
-  "name": "css-grid",
+  "name": "surfing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "run-script-os",
     "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 5555 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\"",
-    "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to FirefoxDeveloperEdition",
+    "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to Firefox Developer Edition",
     "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 5555 --browser 'chrome'"
   },
   "author": "",
