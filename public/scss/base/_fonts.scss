@@ -1,5 +1,23 @@
 @font-face {
-  font-family: 'poppinsR';
-  src: url('./fonts/poppins/poppinsR.woff2'),
-       url('./fonts/poppins/poppinsR.woff');
+  font-family: 'Spartan';
+  src: url('/public/fonts/spartan/spartan-bold-webfont.woff2'),
+       url('/public/fonts/spartan/spartan-bold-webfont.woff');
+}
+
+@font-face {
+  font-family: 'Display';
+  src: url('/public/fonts/dispa/display-webfont.woff2'),
+       url('/public/fonts/dispa/display-webfont.woff');
+}
+
+@font-face {
+  font-family: 'DisplayRegular';
+  src: url('/public/fonts/dispa-regular/display-regular-webfont.woff2'),
+       url('/public/fonts/dispa-regular/display-regular-webfont.woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/public/fonts/poppins/poppins-webfont.woff2'),
+       url('/public/fonts/poppins/poppins-webfont.woff');
 }

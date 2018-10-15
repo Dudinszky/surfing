@@ -1,0 +1,17 @@
+@mixin beforeLine {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 1px;
+  height: 100%;
+  background-color: #f6f6f6;
+}
+
+@mixin clearFix {
+  &:before,
+  &:after{
+    content: " "; 
+    display: table; 
+    clear: both;
+  }
+}
