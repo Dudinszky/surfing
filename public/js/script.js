@@ -1,6 +1,6 @@
 var sliderImage = document.querySelectorAll('.header__gallery .header__image #header__img');
-var btnRight = document.querySelector('.header__gallery .header__btn-wrap #headerRight');
-var btnLeft = document.querySelector('.header__gallery .header__btn-wrap #headerLeft');
+var btnRight = document.querySelector('.header__title-wrap .header__btn-wrap #headerRight');
+var btnLeft = document.querySelector('.header__title-wrap .header__btn-wrap #headerLeft');
 var i = 0;
 
 btnRight.addEventListener('click', function (){

@@ -5,19 +5,18 @@
 }
 
 @font-face {
-  font-family: 'Display';
-  src: url('/public/fonts/dispa/display-webfont.woff2'),
-       url('/public/fonts/dispa/display-webfont.woff');
+  font-family: 'DisplayRegular';
+  src: url('/public/fonts/dispa-regular/playfairdisplay-regular-webfont.woff2'),
+       url('/public/fonts/dispa-regular/playfairdisplay-regular-webfont.woff');
 }
 
 @font-face {
-  font-family: 'DisplayRegular';
-  src: url('/public/fonts/dispa-regular/display-regular-webfont.woff2'),
-       url('/public/fonts/dispa-regular/display-regular-webfont.woff');
+  font-family: 'DisplayBlack';
+  src: url('/public/fonts/dispa/playfairdisplay-black-webfont.woff2'),
+       url('/public/fonts/dispa/playfairdisplay-black-webfont.woff');
 }
-
 @font-face {
   font-family: 'Poppins';
-  src: url('/public/fonts/poppins/poppins-webfont.woff2'),
-       url('/public/fonts/poppins/poppins-webfont.woff');
+  src: url('/public/fonts/poppins/poppins-regular-webfont.woff2'),
+       url('/public/fonts/poppins/poppins-regular-webfont.woff');
 }
