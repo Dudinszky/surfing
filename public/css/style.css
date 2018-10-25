@@ -293,5 +293,167 @@ section {
   .section__video-float .section__video-img {
     width: 100%;
     height: 449px; } }
+figure {
+  padding: 0 105px 0 105px;
+  margin: 0; }
+  figure:before, figure:after {
+    content: " ";
+    display: table;
+    clear: both; }
+
+.container {
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+  width: 100%;
+  position: relative; }
+  .container:before, .container:after {
+    content: " ";
+    display: table;
+    clear: both; }
+
+.figure__arrow-right--wrapp {
+  position: absolute;
+  bottom: 205px;
+  right: -80px;
+  z-index: 1;
+  cursor: pointer; }
+
+.figure__arrow-left--wrapp {
+  position: absolute;
+  bottom: 205px;
+  left: -80px;
+  cursor: pointer;
+  z-index: 1; }
+
+.figure__shop {
+  text-align: center;
+  padding-top: 195px;
+  margin: 0;
+  color: #5da8ef;
+  font-family: 'Spartan';
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.4px; }
+
+.figure__header {
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 0;
+  color: #333333;
+  font-family: "Playfair Display";
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 0.42px; }
+
+.figure__gallery {
+  border: 2px solid #000;
+  overflow: hidden;
+  position: relative; }
+  .figure__gallery:before, .figure__gallery:after {
+    content: " ";
+    display: table;
+    clear: both; }
+  .figure__gallery .figure__slider {
+    position: relative;
+    left: 0;
+    transition: all ease 0.4s; }
+  .figure__gallery .figure__image {
+    border: 2px solid pink;
+    float: left;
+    margin-right: 288px;
+    position: relative;
+    z-index: 1; }
+    .figure__gallery .figure__image:last-child {
+      margin: 0; }
+    .figure__gallery .figure__image.background-A {
+      margin-left: 21px; }
+      .figure__gallery .figure__image.background-A:before {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        right: -31px;
+        width: 170px;
+        height: 250px;
+        background-color: #e8e8e8;
+        z-index: -1; }
+    .figure__gallery .figure__image.background-B:before {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      right: -31px;
+      width: 170px;
+      height: 250px;
+      background-color: #e8e8e8;
+      z-index: -1; }
+    .figure__gallery .figure__image.background-C:before {
+      content: "";
+      position: absolute;
+      bottom: 1px;
+      right: -31px;
+      width: 170px;
+      height: 251px;
+      background-color: #e8e8e8;
+      z-index: -1; }
+    .figure__gallery .figure__image .figure__img {
+      width: 118px;
+      height: 420px; }
+    .figure__gallery .figure__image .figure__info-wrap {
+      position: absolute;
+      top: 240px;
+      right: -130px; }
+      .figure__gallery .figure__image .figure__info-wrap .figure__image-names {
+        margin: 0;
+        color: #7a7a7a;
+        font-family: 'Poppins';
+        font-size: 11px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 2.4px; }
+      .figure__gallery .figure__image .figure__info-wrap .figure__image-board--names {
+        margin: 0;
+        color: #333333;
+        font-family: 'DisplayBlack';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px; }
+        .figure__gallery .figure__image .figure__info-wrap .figure__image-board--names .figure__tiny {
+          font-family: 'DisplayRegular';
+          letter-spacing: 0.26px; }
+      .figure__gallery .figure__image .figure__info-wrap .figure__price {
+        margin: 30px 0 0 60px;
+        color: #ce60a8;
+        font-family: 'Poppins';
+        font-size: 19px;
+        font-weight: 300;
+        letter-spacing: -0.1px; }
+        .figure__gallery .figure__image .figure__info-wrap .figure__price.figure-margin {
+          margin-left: 50px; }
+      .figure__gallery .figure__image .figure__info-wrap .figure__buy {
+        margin: 0 0 0 60px;
+        color: #333333;
+        font-family: 'Spartan';
+        font-size: 9px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 5.4px; }
+        .figure__gallery .figure__image .figure__info-wrap .figure__buy.buy__margin {
+          margin-left: 51px; }
+
+.figure-show-wrapp {
+  padding-top: 80px;
+  text-align: center;
+  clear: left; }
+  .figure-show-wrapp .figure__show-link {
+    padding-bottom: 10px;
+    margin: 0;
+    display: inline-block;
+    border-bottom: 2px solid #5da8ef;
+    color: #333333;
+    font-family: 'Spartan';
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5.4px; }
 
 /*# sourceMappingURL=style.css.map */
