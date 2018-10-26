@@ -456,4 +456,172 @@ figure {
     text-transform: uppercase;
     letter-spacing: 5.4px; }
 
+article {
+  padding: 0 105px 0 105px; }
+
+.container {
+  border-left: 1px solid #f5f5f5;
+  border-right: 1px solid #f5f5f5;
+  width: 100%;
+  position: relative; }
+  .container:before, .container:after {
+    content: " ";
+    display: table;
+    clear: both; }
+
+.article__main-aside--info {
+  position: absolute;
+  top: 210px;
+  right: -80px;
+  opacity: 0.2;
+  color: #0b0c11;
+  font-family: 'Spartan';
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.4px;
+  transform: rotate(-90deg); }
+
+.article__main-wrapp {
+  margin-top: 173px; }
+  .article__main-wrapp .article__main-left--wrapp {
+    width: 350px;
+    float: left;
+    margin: 55px 0 0 35px; }
+    .article__main-wrapp .article__main-left--wrapp .article__main-header {
+      position: relative;
+      margin: 0;
+      color: #333333;
+      font-family: 'DisplayRegular';
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 66px;
+      letter-spacing: 0.42px; }
+    .article__main-wrapp .article__main-left--wrapp .article__main-big--number {
+      position: absolute;
+      top: 58px;
+      color: #f9f9f9;
+      font-family: 'Spartan';
+      font-size: 130px;
+      font-weight: 700;
+      line-height: 66px;
+      letter-spacing: 13px; }
+    .article__main-wrapp .article__main-left--wrapp .article__main-b--line {
+      float: left;
+      width: 23px;
+      height: 1px;
+      border-bottom: 2px solid #5da8ef; }
+    .article__main-wrapp .article__main-left--wrapp .article__main-info {
+      margin: 35px 0 35px 0;
+      opacity: 0.65;
+      color: #616161;
+      font-family: 'Poppins';
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.35px; }
+    .article__main-wrapp .article__main-left--wrapp .article__main-link {
+      display: inline-block;
+      margin: 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #5da8ef;
+      color: #333333;
+      font-family: 'Spartan';
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 5.4px; }
+  .article__main-wrapp .article__main-right--wrapp {
+    float: right; }
+    .article__main-wrapp .article__main-right--wrapp .article__main-img {
+      width: 762px;
+      height: 439px; }
+
+.article__second-wrapp {
+  position: relative;
+  clear: both; }
+  .article__second-wrapp .article__second-aside--info {
+    position: absolute;
+    top: 36px;
+    left: 72px;
+    opacity: 0.2;
+    color: #0b0c11;
+    font-family: 'Spartan';
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5.4px;
+    transform: rotate(-90deg); }
+  .article__second-wrapp .article__second-left--wrapp {
+    float: left;
+    margin-left: 150px; }
+    .article__second-wrapp .article__second-left--wrapp .article__seconda-img {
+      width: 489px;
+      height: 439px; }
+  .article__second-wrapp .article__second-right--wrapp {
+    float: left;
+    margin-left: 100px;
+    width: 350px; }
+    .article__second-wrapp .article__second-right--wrapp .article__second-big--number {
+      position: absolute;
+      top: -116px;
+      color: #f9f9f9;
+      font-family: 'Spartan';
+      font-size: 130px;
+      font-weight: 700;
+      line-height: 66px;
+      letter-spacing: 13px; }
+    .article__second-wrapp .article__second-right--wrapp .article__second-header {
+      position: relative;
+      margin: 53px 0 0 0;
+      color: #333333;
+      font-family: 'DisplayRegular';
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 66px;
+      letter-spacing: 0.42px; }
+    .article__second-wrapp .article__second-right--wrapp .article__second-b--line {
+      float: left;
+      width: 23px;
+      height: 1px;
+      border-bottom: 2px solid #5da8ef; }
+    .article__second-wrapp .article__second-right--wrapp .article__second-info {
+      margin: 35px 0 35px 0;
+      opacity: 0.65;
+      color: #616161;
+      font-family: 'Poppins';
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      letter-spacing: 0.35px; }
+    .article__second-wrapp .article__second-right--wrapp .article__second-link {
+      display: inline-block;
+      margin: 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #5da8ef;
+      color: #333333;
+      font-family: 'Spartan';
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 5.4px; }
+
+@media screen and (max-width: 1439px) {
+  .article__main-wrapp {
+    margin-top: 173px; }
+    .article__main-wrapp .article__main-right--wrapp {
+      float: right;
+      padding-bottom: 120px; }
+      .article__main-wrapp .article__main-right--wrapp .article__main-img {
+        width: 650px;
+        height: 360px; }
+
+  .article__second-wrapp {
+    position: relative; }
+    .article__second-wrapp .article__second-left--wrapp {
+      float: left; }
+      .article__second-wrapp .article__second-left--wrapp .article__seconda-img {
+        width: 389px;
+        height: 360px; } }
+
 /*# sourceMappingURL=style.css.map */
