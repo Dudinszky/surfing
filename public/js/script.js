@@ -54,8 +54,8 @@ function activeNumberLeft() {
 
 //Board slider 
 
-var arrowLeft = document.querySelector('.figure__arrow-left--wrapp #boardLeft');
-var arrowRight = document.querySelector('.figure__arrow-right--wrapp #boardRight');
+var arrowLeft = document.getElementById('boardLeft');
+var arrowRight = document.getElementById('boardRight');
 var boardImage = document.querySelector('.figure__slider');
 var left = 0;
 
@@ -71,7 +71,7 @@ function boardImagesLeft() {
   if (left < -280) {
     left = 0;
   }
-  left = left -270;
+  left = left - 270;
   boardImage.style.left = left+'px';
   
 }

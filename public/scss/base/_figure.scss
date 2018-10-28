@@ -1,5 +1,5 @@
 figure {
-  padding: 0 105px 0 105px;
+  // padding: 0 105px 0 105px;
   margin: 0;
   @include clearFix;
 }
@@ -7,7 +7,8 @@ figure {
 .container {
   border-left: 1px solid #f5f5f5;
   border-right: 1px solid #f5f5f5;
-  width: 100%;
+  max-width: 1019px;
+  margin: 0 auto;
   position: relative;
   @include clearFix;
 }
@@ -52,81 +53,33 @@ figure {
   letter-spacing: 0.42px;
 }
 
+
 .figure__gallery {
+  width: 100%;
   border: 2px solid #000;
   overflow: hidden;
-  position: relative;
   @include clearFix;
 
   .figure__slider {
-    position: relative;
-    left: 0;
     transition: all ease 0.4s;
+    display: flex;
   }
 
   .figure__image  {
     border: 2px solid pink;
-    float: left;
-    margin-right: 288px;
-    position: relative;
+    max-width: 368px;
+    padding-left: 40px;
     z-index: 1;
-    &:last-child {
-      margin: 0;
-    }
-
-
-    &.background-A {
-      margin-left: 21px;
-
-      &:before {
-        content: ('');
-        position: absolute;
-        bottom: 0px;
-        right: -31px;
-        width: 170px;
-        height: 250px;
-        background-color: #e8e8e8;
-        z-index: -1;
-      }
-    }
-
-    &.background-B {
-
-      &:before {
-        content: ('');
-        position: absolute;
-        bottom: 0px;
-        right: -31px;
-        width: 170px;
-        height: 250px;
-        background-color: #e8e8e8;
-        z-index: -1;
-      }
-    }
-
-    &.background-C {
-      
-      &:before {
-        content: ('');
-        position: absolute;
-        bottom: 1px;
-        right: -31px;
-        width: 170px;
-        height: 251px;
-        background-color: #e8e8e8;
-        z-index: -1;
-      }
-    }
+    display: flex;
+    justify-content: center;
 
     .figure__img {
-      width: 118px;
+      width: 128px;
       height: 420px;
     }
 
     .figure__info-wrap {
-      position: absolute;
-      top: 240px;
-      right: -130px;
+      display: flex;
       .figure__image-names {
         margin: 0;
         color: #7a7a7a;
